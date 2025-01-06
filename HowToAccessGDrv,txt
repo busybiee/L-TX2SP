@@ -1,0 +1,14 @@
+Steps to Integrate Google Drive API
+Enable Google Drive API:
+
+Go to the Google Cloud Console.
+Create a new project or select an existing one.
+Enable the Google Drive API for your project.
+Create OAuth 2.0 credentials to get a client_id and client_secret.
+Use gapi Library:
+
+Include the Google API JavaScript library in your project.
+Authenticate users to allow access to their Google Drive.
+Fetch and Process the CSV:
+
+Use the Google Drive API to list files, select the desired CSV, and download its contents.

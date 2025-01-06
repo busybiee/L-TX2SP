@@ -3,17 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lottery Predictor</title>
+  <title>Lottery Predictor with Multiple Options</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="app">
     <h1 id="gameName">LotPred-Tx2Step</h1>
-    <p>Upload a CSV file with historical lottery data to predict the next numbers.</p>
-    <input type="file" id="csvInput" accept=".csv" />
-    <button id="processBtn">Process CSV</button>
+    <p>Choose how to upload your CSV file for prediction:</p>
+    <button id="authorizeBtn">Use Google Drive</button>
+    <button id="localFileBtn">Upload Local File</button>
+    <input type="file" id="csvInput" accept=".csv" style="display: none;" />
     <div id="result"></div>
   </div>
+
+  <!-- Google API -->
+  <script src="https://apis.google.com/js/api.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
