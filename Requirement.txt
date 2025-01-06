@@ -1,0 +1,20 @@
+
+Texas Two Step drawings are held every Monday and Thursday at 10:12 p.m. CT.
+Tickets are not available during Draw Break, from 10:02 -10:15 p.m. CT.
+https://www.texaslottery.com/export/sites/lottery/Games/Texas_Two_Step/index.html#HowToPlay
+
+
+Requirement:
+ok, let make a more complex lottery picker program this time. Do not modify above program for this. I want you to start from scratch for this program and write a completely new program.
+below is the requirement
+write a javascript program with index.html, app.js, style.css files with this requiremnet below. 
+1) The program should prompt to input a cvs file name. 
+2) This cvs file is basically a historical data of past number picked for a lottery. 
+In each drawing 4 numbered balls from 1 to 35 are picked.  In addition one bonus ball numbered from 1 to 35 is picked separately. 
+The winner is the person who had picked all 4 matching numbers with the matching bonus ball. The cvs file has there columns below
+"Game Name","Month","Day","Year","Num1","Num2","Num3","Num4","Bonus Ball"
+The columns "Num1","Num2","Num3","Num4" represent the 4 numbers picked and the column "Bonus Ball" represents the bonus ball picked
+3) The program you create should predit the likely (highest) probability of the next 5 balls (4 numbers and the bonus ball) that will be picked in the next drawing. 
+4) The program should also display the probability of the each number from 1 to 35 that can be picked and show it in semicolon separted and not in table format.
+5) This should be user friendly program with good display prompts, colorful interface and messages.
+6) The program should also display the "Game Name" on the top of the html page.
